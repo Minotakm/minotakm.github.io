@@ -94,13 +94,13 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+    link: mminotakis@gmail.com
+  #- icon: twitter
+  #  icon_pack: fab
+  #  link: https://twitter.com/GeorgeCushen
+  #  label: Follow me on Twitter
+  #  display:
+  #    header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=gtUKOYcAAAAJ&hl=en&oi=ao
@@ -121,5 +121,4 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+I hold a PhD in computational physics from Trinity College Dublin, specializing in computational material science. My primary focus revolves around efficiently navigating the materials phase space using data analysis, machine learning, and materials informatics. I am currently applying these techniques in my PhD research to discover and design innovative materials within the realm of materials science. Passionate about the intersection of technology and material innovation.
