@@ -1,23 +1,23 @@
 ---
 # Display name
-title: 吳健雄
+title: Michael Minotakis, PhD
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Michael
+last_name: Minotakis
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🟢
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Assistant on Materials Informatics
 
 # Organizations/Affiliations to show in About widget
 organizations:
