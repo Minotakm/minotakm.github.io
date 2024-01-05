@@ -49,7 +49,7 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
+Skills:
 - name: Technical
   items:
     - name: Python

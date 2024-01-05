@@ -17,7 +17,7 @@ main:
     url: '#featured'
     weight: 40
   - name: Certificates
-    url: '#featured'
+    url: '#certificates'
     weight: 50
   - name: Publications
     url: '#featured'
