@@ -53,7 +53,6 @@ skills:
   - name: Technical
     items:
       - name: Python
-        description: ''
         icon: python
         icon_pack: fab
       - name: Fortran
