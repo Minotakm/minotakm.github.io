@@ -50,50 +50,51 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
-    items:
-      - name: Python
-        icon: python
-        icon_pack: fab
-      - name: Fortran
-        description: ''
-        icon: code
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        icon: database
-        icon_pack: fas
-      - name: Bash-shell scripting
-        description: ''
-        icon: terminal
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        icon: database
-        icon_pack: fas
-  - name: Quantitative Expertise
-    items:
-      - name: Data Science
-        description: ''
-        icon: chart-line
-        icon_pack: fas
-      - name: Data Analysis
-        description: ''
-        icon: chart-bar
-        icon_pack: fas
-      - name: Predictive Modeling
-        description: ''
-        icon: cog
-        icon_pack: fas
-      - name: Problem Solving
-        description: ''
-        icon: tools
-        icon_pack: fas
-      - name: Effective Written Communication
-        description: ''
-        icon: pencil-alt
-        icon_pack: fas
-    
+- name: Technical
+  items:
+    - name: Python
+      description: ''
+      icon: python
+      icon_pack: fab
+    - name: Fortran
+      description: ''
+      icon: code
+      icon_pack: fas
+    - name: SQL
+      description: ''
+      icon: database
+      icon_pack: fas
+    - name: Bash-shell scripting
+      description: ''
+      icon: terminal
+      icon_pack: fas
+    - name: SQL
+      description: ''
+      icon: database
+      icon_pack: fas
+
+- name: Quantitative Expertise
+  items:
+    - name: Data Science
+      description: ''
+      icon: chart-line
+      icon_pack: fas
+    - name: Data Analysis
+      description: ''
+      icon: chart-bar
+      icon_pack: fas
+    - name: Predictive Modeling
+      description: ''
+      icon: cog
+      icon_pack: fas
+    - name: Problem Solving
+      description: ''
+      icon: tools
+      icon_pack: fas
+    - name: Effective Written Communication
+      description: ''
+      icon: pencil-alt
+      icon_pack: fas
 #  - name: Hobbies
 #    color: '#eeac02'
 #    color_border: '#f0bf23'
