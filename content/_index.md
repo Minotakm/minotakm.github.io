@@ -36,12 +36,14 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+
   - block: about.biography
     id: about
     content:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
   - block: skills
     id: skills
     content:
@@ -51,6 +53,7 @@ sections:
       username: admin
     design:
       columns: '1'
+
   - block: experience
     id: experience
     content:
@@ -64,29 +67,41 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: PhD Candidate
+          company: Trinity College Dublin
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          company_logo: tcd
+          location: Dublin, Ireland
+          date_start: '2019-10-01'
+          date_end: '2023-10-01'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Workflow management
+              * Data modelling
+              * Data analysis
+              * Software development
+              * Machine learning model deployment
+              * Data visualisation and presentation.
+
+        - title: MSc Candidate
+          company: University of Crete
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: uoc
+          location: Crete, Greece
+          date_start: '2016-09-01'
+          date_end: '2019-03-01'
+          description: |2-
+              Responsibilities include:
+              * Ab Initio Calculations 
+              * Data modelling
+              * Data analysis
+              * Data visualisation and presentation.
     design:
       columns: '2'
+
+
+
   - block: accomplishments
     id: certificates
     content:
@@ -130,6 +145,7 @@ sections:
           url: ''
     design:
       columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -149,29 +165,41 @@ sections:
           tag: '*'
         - name: Deep Learning
           tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Data Science
+          tag: Data Science
+        - name: Data Analysis
+          tag: Data Analysis
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
+      view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
   - block: collection
     id: publications
     content:
       title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      # Filter on criteria
       filters:
+        # The folders to display content from
         folders:
           - publication
-        exclude_featured: true
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
     design:
-      columns: '2'
+      # Choose a listing view
       view: citation
+      # Choose single or dual column layout
+      columns: '2'
+      
   - block: contact
     id: contact
     content:
